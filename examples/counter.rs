@@ -22,7 +22,7 @@
 */
 
 use iced::{button, Align, Button, Column, Element, Sandbox, Settings, Text};
-use iced_vmacro::view;
+use iced_viewmacro::view;
 
 pub fn main() -> iced::Result {
     Counter::run(Settings::default())
